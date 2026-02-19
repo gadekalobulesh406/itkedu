@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class CollectionFilterAssignment {
 
-    // 1️⃣ Generic Filter Interface
+    // 1Generic Filter Interface
     interface Filter<T> {
         T apply(T o);
     }
 
-    // 2️⃣ Generic filter method
+    // 2 Generic filter method
     public static <T> T[] filter(T[] array, Filter<T> filter) {
 
         // Create new array of same type and size
@@ -22,7 +22,7 @@ public class CollectionFilterAssignment {
         return result;
     }
 
-    // 3️⃣ Main method (Test)
+    // 3 Main method (Test)
     public static void main(String[] args) {
 
         // Example 1: Integer array (Multiply by 2)
